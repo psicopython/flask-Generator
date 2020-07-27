@@ -26,11 +26,11 @@ while True:
 			"t":"templates","v":"views"}
 		
 		for c,v in dados.items():
-			with open(f"flask_pkg/{v}","r") as i:
+			with open(f"GerarApp/{v}","r") as i:
 				dados[c] = i.read()
 		
 		for c,v in dados2.items():
-			with open(f"flask_pkg/{v}","r") as i:
+			with open(f"GerarApp/{v}","r") as i:
 				dados2[c] = i.read()
 		
 		os.mkdir(pkg)
