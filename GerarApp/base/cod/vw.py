@@ -1,8 +1,6 @@
 from flask import Blueprint
 from .views import *
 
-def index():
-    return "hello word"
 
 bp = Blueprint("webiu",__name__)
 
