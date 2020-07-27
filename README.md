@@ -22,7 +22,7 @@ Nome do package: Blog
 E se td ocorrer bem, vai mostrar uma mensagem de sucesso.
 ```sh
     Aplicação FLASK criada com sucesso!
-``
+```
 Após isso você pode cria uma venv
 (não é obrigatório,mas é recomendado).
 
