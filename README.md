@@ -14,7 +14,7 @@ Ele vai pedir um nome para o projeto
 Neste exemplo, vou chamar de Blog.
 
 ```sh
-Nome do package: /_Blog_
+Nome do package: Blog
 ```
 E se td ocorrer bem, vai mostrar uma mensagem de sucesso.
 ```sh
