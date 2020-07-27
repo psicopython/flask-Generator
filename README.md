@@ -1,8 +1,8 @@
 # flask-Generator
-Uma aplicação python que gera um app base para flas ja com as estrutura e configurações prontas
+Uma aplicação python que gera um app base para flask ja com as estrutura e configurações prontas
 
 ```sh
-$ git clone https://github.com/psicopython/flask-generator
+$ git clone https://github.com/psicopython/flask-Generator
 
 $ cd flask-Generator
 
