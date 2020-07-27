@@ -10,13 +10,16 @@ $ python GerarApp
 
 ```
 
-De um nome para o projeto
+Ele vai pedir um nome para o projeto
+Neste exemplo, vou chamar de Blog.
 
 ```sh
-nome do package: Blog
-Aplicação FLASK criada com sucesso!
+Nome do package: _Blog_
 ```
-Após isso vc cria uma venv
+E se td ocorrer bem, vai mostrar uma mensagem de sucesso.
+
+Após isso você pode cria uma venv
+(não é obrigatório,mas é recomendado).
 
 ```sh
 
