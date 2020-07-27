@@ -6,6 +6,9 @@ $ git clone https://github.com/psicopython/flask-Generator
 
 $ cd flask-Generator
 
+#isso é para mover o app para fora da pasta do git
+$ mv flask-Generator ../
+
 $ python GerarApp
 
 ```
