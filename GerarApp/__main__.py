@@ -43,7 +43,9 @@ try:
 			
 			for c,v in dados2.items():
 				with open(f"GerarApp/base/{v}","r") as i:
-					dados2[c] = i.read()
+					dados2[c] = i.read().replace('€|€',pkg.upper())
+			
+			
 			
 			os.mkdir(pkg)
 			os.mkdir(pkg+"/app")
@@ -74,10 +76,10 @@ try:
 			os.system('cls' if os.name == 'nt' else 'clear')
 			print('\033[33m|•',end='',flush=True)
 			for c in range(0,20):
-				sleep(.2)
+				sleep(.005)
 				print(' •',end='',flush=True)
 			print('| 100%\033[m')
-			sleep(.5)
+			sleep(.2)
 			os.system('cls' if os.name == 'nt' else 'clear')
 		    
 			print(f"\n\033[32mAplicação FLASK criada com sucesso!\033[m\n")
