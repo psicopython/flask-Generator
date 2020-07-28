@@ -16,7 +16,6 @@ def appc():
 				"v":"cod/vw.py",
 				"i":"cod/init.py",
 				"re":'requirements.txt',
-				"toml":"toml.py",
 				"bhtml":"html/base.html",
 				"inhtml":"html/index.html"
 				}
@@ -56,7 +55,6 @@ def appc():
 				echo "export FLASK_APP=app.app:create_app\nexport FLASK_ENV=development" > {pkg}/.env
 				echo "{dados['i']}  " > {pkg}/app/app.py
 				echo "{dados['re']} " > {pkg}/requirements.txt
-				echo "{dados['toml'] > pyproject.toml}"
 				echo "" > {pkg}/app/{arq['i']}
 				""")
 			for i,v in pas.items():
